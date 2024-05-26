@@ -9,7 +9,7 @@ public class MainTest extends AtlasMongoDBTest {
 
     @Test
     public void testMain() {
-        System.out.println(super.connectionString());
+        System.out.println(STR."MongoDB is ready to connect to for testing at \{super.connectionString()}");
     }
 
 }

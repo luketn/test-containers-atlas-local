@@ -13,6 +13,7 @@ import static org.slf4j.LoggerFactory.getLogger;
 
 /**
  * A base class you can extend in tests to run against an Atlas Local Development Environment.
+ * Ref: https://github.com/mongodb/mongodb-atlas-cli/blob/master/internal/cli/deployments/setup.go
  */
 public abstract class AtlasMongoDBTest {
     private static final Logger log = getLogger(AtlasMongoDBTest.class);
